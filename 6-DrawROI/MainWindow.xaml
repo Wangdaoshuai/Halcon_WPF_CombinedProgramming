@@ -1,0 +1,33 @@
+﻿<Window x:Class="_6_DrawROI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:halcon="http://schemas.mvtec.com/halcondotnet"
+        xmlns:local="clr-namespace:_6_DrawROI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10 20 10 0" />
+            <Setter Property="Padding" Value="10" />
+
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <halcon:HSmartWindowControlWPF x:Name="HS" />
+        <StackPanel Grid.Column="2" >
+            <Button Content="加载图像" Name="Btn_LoadImage" Click="Btn_LoadImage_Click"/>
+            <Button Content="画圆形" Name="Btn_LoadCircleImage" Click="Btn_LoadCircleImage_Click"/>
+            <Button Content="画矩形" Name="Btn_LoadRectImage" Click="Btn_LoadRectImage_Click"/>
+            <Button Content="画椭圆形" Name="Btn_LoadEpImage" Click="Btn_LoadEpImage_Click"/>
+            <Button Content="创建匹配模板" Name="Btn_CreateModel" Click="Btn_CreateModel_Click"/>
+            <Button Content="显示匹配结果" Name="Btn_Result" Click="Btn_Result_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

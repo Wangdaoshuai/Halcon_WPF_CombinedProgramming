@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstHalcon", "FirstHalcon\FirstHalcon.csproj", "{5C805162-B16A-43E1-9A67-2D8231802A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-LoadImage", "2-LoadImage\2-LoadImage.csproj", "{C0E4294E-EA01-42FE-8B33-27E189853753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-SmartAndHWDemo", "3-SmartAndHWDemo\3-SmartAndHWDemo.csproj", "{2EDF09CC-99A8-4226-8DE5-F9BB3A759B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-FitToContainer", "4-FitToContainer\4-FitToContainer.csproj", "{351E766B-E03A-46E3-9F32-C632AAA3CFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-HalconExportLib", "HalconExportLib\5-HalconExportLib.csproj", "{6BB65186-CB54-4C69-9E6D-D0F288E600B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-DrawROI", "6-DrawROI\6-DrawROI.csproj", "{72C06688-A750-4D34-A3A6-92D8CC15DF40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C805162-B16A-43E1-9A67-2D8231802A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C805162-B16A-43E1-9A67-2D8231802A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C805162-B16A-43E1-9A67-2D8231802A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C805162-B16A-43E1-9A67-2D8231802A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E4294E-EA01-42FE-8B33-27E189853753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E4294E-EA01-42FE-8B33-27E189853753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E4294E-EA01-42FE-8B33-27E189853753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E4294E-EA01-42FE-8B33-27E189853753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDF09CC-99A8-4226-8DE5-F9BB3A759B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDF09CC-99A8-4226-8DE5-F9BB3A759B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDF09CC-99A8-4226-8DE5-F9BB3A759B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDF09CC-99A8-4226-8DE5-F9BB3A759B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351E766B-E03A-46E3-9F32-C632AAA3CFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351E766B-E03A-46E3-9F32-C632AAA3CFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351E766B-E03A-46E3-9F32-C632AAA3CFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351E766B-E03A-46E3-9F32-C632AAA3CFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB65186-CB54-4C69-9E6D-D0F288E600B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB65186-CB54-4C69-9E6D-D0F288E600B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB65186-CB54-4C69-9E6D-D0F288E600B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB65186-CB54-4C69-9E6D-D0F288E600B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C06688-A750-4D34-A3A6-92D8CC15DF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C06688-A750-4D34-A3A6-92D8CC15DF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C06688-A750-4D34-A3A6-92D8CC15DF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C06688-A750-4D34-A3A6-92D8CC15DF40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2AD706D-4065-454B-A274-F1E630A4B982}
+	EndGlobalSection
+EndGlobal
